@@ -1,0 +1,25 @@
+<html>
+
+<head>
+  <title>Demo Rafael</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="scripts.js"></script>
+</head>
+
+<body onload="loadPeople()">
+  <h1>Demo Rafael</h1>
+  <div>
+    <h2>People List</h2>
+    <ul id="peopleList"></ul>
+  </div>
+  <div>
+    <h2>Create Person</h2>
+    <form onsubmit="handleSubmit(event)">
+      <label for="person">Person</label>
+      <input type="text" name="person">
+      <input type="submit" value="Create">
+    </form>
+  </div>
+</body>
+
+</html>
